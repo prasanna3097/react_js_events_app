@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.events-container {
+  display: flex;
+
+  align-items: flex-start;
+}
+.event-content {
+  background-color: #64748b;
+  width: 50%;
+}
+.main-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 20px;
+}
+.all-events {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0px;
+  flex-wrap: wrap;
+}
